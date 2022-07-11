@@ -20,7 +20,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: mozart409/fastify-hello-world:$(date +%s)
+          images: mozart409/fastify-hello-world
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
