@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "outDir": "./dist"
+  }
+}
